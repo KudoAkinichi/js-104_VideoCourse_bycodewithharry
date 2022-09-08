@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+        
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .left {
+            display: block;
+            width: 100px;
+            position: relative;
+            left: 70px;
+            top: 6px;
+        }
+        
+        .left img{
+            width: 75px;
+            height: 80px;
+            border-radius: 10px
+        }
+        header::before{
+            background: url('/38_1_WebsiteForFun/img/img1.jpg') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 120%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.7;
+           
+            
+        }
+        
+        .navigation{
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+            position: relative;
+            bottom: 80px;
+        }
+             
+        li{
+            list-style: none;
+            padding: 25px 28px;
+        }
+        section{
+            height: 200px;
+            margin: 5px 230px;
+            font-size: 21px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="/38_1_WebsiteForFun/img/icon.jpg" alt="">
+            <div>Kudo's Hub</div>
+        </div>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item" id="hom"><a href="#">Home</a></li>
+                <li class="item" id="ani"><a href="#">My favorite ANIME, MANGA & LN=)</a></li>
+                <li class="item" id="link"><a href="#">Cool Links!</a></li>
+                <li class="item" id="misc"><a href="#">Miscellaneous</a></li>
+                <li class="item" id="contact"><a href="#">Contact Me~~</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to my world!~~</h1>
+        <p>This website is made by me to test my CSS and HTML skills and will have some things I like or do , thanks for
+            visiting it! Be sure to leave a feedback through contact me!</p>
+    </section>
+</body>
+
+</html>
