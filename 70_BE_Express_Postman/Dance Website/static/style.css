@@ -24,7 +24,7 @@
 
 #navbar li a{ 
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
    text-decoration: none;
     padding: 13px 20px;
     font-weight: bold;
@@ -41,14 +41,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 70px;
     background: center/cover no-repeat url("https://images.unsplash.com/photo-1483931430372-226f194be3a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFuY2UlMjBhY2FkZW15fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
-    height: 300px;
+    height: 450px;
     background-color: red;
 }
 
 #intro div.small{
-    font-size: 28px;
+    font-size: 38px;
+}
+
+#missionSection{
+    height: 330px;
+    width: 87%;
+    margin: auto;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 60px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 28%;
+    margin: 35px 22px;
+    height: 180px;
+    
+}
+
+.card h3{
+    text-align: center;
+    margin: 20px;
+    
 }
 
 #sponsorsSection{
@@ -59,7 +87,7 @@
 #sponsorsSection h2{
     text-align: center;
     padding-top: 15px;
-
+    font-size: 65px;
 }
 #footer{
     background-color: black;
