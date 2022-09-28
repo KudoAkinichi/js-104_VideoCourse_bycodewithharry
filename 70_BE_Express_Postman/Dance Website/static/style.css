@@ -65,14 +65,14 @@
 }
 
 #missionSection{
-    height: 330px;
+    height: 580px;
     width: 87%;
     margin: auto;
 }
 
 #missionSection h2{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 60px;
 }
 
@@ -115,10 +115,26 @@
 
 #sponsorsSection h2{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 12px;
     font-size: 65px;
 }
+
+#sponsors{
+    height: 200px;
+    max-width: 830px;
+    margin: auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 22px;
+}
+
 #footer{
+    display: flex;
     background-color: black;
-    height: 100px;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
 }
