@@ -15,17 +15,27 @@ const kittySchema = new mongoose.Schema({
   name: String
 });
 
-// // NOTE: methods must be added to the schema before compiling it with mongoose.model()
-// kittySchema.methods.speak = function speak() {
-//   const greeting = "My name is " + this.name
-//   console.log(greeting);
-// };
+// NOTE: methods must be added to the schema before compiling it with mongoose.model()
+kittySchema.methods.speak = function speak() {
+  const greeting = "My name is " + this.name
+  console.log(greeting);
+};
 
 const Kitten = mongoose.model('kudoKitten', kittySchema);
 
 const kudoKitty = new Kitten({ name: 'kudoKitty pro' });
+const Alanwake = new Kitten({ name: 'Gamer 1' });
 // console.log(kudoKitty.name); 
-// kudoKitty.speak()
+
+kudoKitty.save();
+kudoKitty.speak();
+
+Alanwake.save();
+Alanwake.speak();
+
+
+
+
 
 
 
